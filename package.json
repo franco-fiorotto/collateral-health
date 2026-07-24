@@ -1,0 +1,20 @@
+{
+  "name": "collateral-health",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A well-modelled library that computes the health status of a Collateral Arrangement in response to an event.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
